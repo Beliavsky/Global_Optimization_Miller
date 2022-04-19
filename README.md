@@ -1,4 +1,5 @@
 # Global Optimization Miller
-Global optimization Fortran 95 code of [Alan Miller](https://jblevins.org/mirror/amiller/), slightly modified by removing the input file from the fit.f90 source file. Use <br>`gfortran global.f90 fit.f90` or `gfortran global.f90 testfunc.f90` to create executables. It also compiles and runs with ifort and g95.
+Global optimization Fortran 95 code of [Alan Miller](https://jblevins.org/mirror/amiller/), slightly modified by removing the input and output files from the [fit.f90](https://jblevins.org/mirror/amiller/fit.f90) source file. Use <br>`gfortran global.f90 fit.f90` or `gfortran global.f90 testfunc.f90` to create executables. It also compiles and runs with ifort and g95.
 
+Alan Miller's description:
 > [global.f90](https://jblevins.org/mirror/amiller/global.f90) At Arnold Neumaier's web site, this is recommended as the most successful of the global optimization packages. There is a sample program fit.f90 and the original documentation global.txt for the f77 version. I have included testfunc.f90 which will eventually contain all of Neumaier's 30 test functions. N.B. Users of local optimization packages usually obtain satisfactory convergence after 10s or sometimes 100s of function evaluations. Global optimization routines usually require many 1000s of function evaluations.
